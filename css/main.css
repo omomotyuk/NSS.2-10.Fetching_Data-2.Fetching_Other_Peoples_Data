@@ -1,0 +1,13 @@
+.food-info {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.food-info > div {
+    width: 20%;
+    border: 1px solid black;
+    border-radius: .3em;
+    background-color: aquamarine;
+    margin: .5em;
+    padding: .3em;
+}
