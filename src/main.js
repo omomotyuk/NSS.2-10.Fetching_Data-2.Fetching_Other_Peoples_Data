@@ -15,7 +15,8 @@ function createElement( tag,content ){
 //
 function foodFactory( food ) {
     const foodElement = document.createElement( 'div' )
-    foodElement.appendChild( createElement( 'h2',food.barcode ) )
+    foodElement.appendChild( createElement( 'h2',food.name ) )
+    foodElement.appendChild( createElement( 'h3',food.barcode ) )
     foodElement.appendChild( createElement( 'p', food.ingredients ) )
     return foodElement
 }
